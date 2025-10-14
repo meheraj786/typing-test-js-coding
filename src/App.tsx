@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import type { JSX } from "react";
 import { RotateCcw, Zap, Target } from 'lucide-react';
 
 // interface Stats {
