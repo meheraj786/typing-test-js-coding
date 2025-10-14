@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { RotateCcw, Zap, Target } from 'lucide-react';
 
-interface Stats {
-  wpm: number;
-  accuracy: number;
-  progress: number;
-}
+// interface Stats {
+//   wpm: number;
+//   accuracy: number;
+//   progress: number;
+// }
 
 const codeSnippets: string[] = [
   `const fibonacci = (n) => {
